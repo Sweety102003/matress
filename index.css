@@ -1,0 +1,406 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    font-size: 2rem;
+  
+
+}
+#home::before{
+    content: " ";
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height :518px;
+    width: 100vw;
+    opacity: 0.8;
+    z-index: -2;
+
+
+}
+#front{
+    height: 100vh;
+    width:100vw;
+}
+#logo>img{
+    height: 43px;
+    width: 43px;
+    margin: 11px;
+}
+.navbar{
+    display: flex;
+    margin-top: 0px;
+    padding :7px;
+    
+    
+
+}
+select{
+    color:white;
+    background: none;
+    text-decoration: none;
+    border:none;
+    font-size: 1.5rem;
+}
+.mn{
+    border-radius: 6px;
+    padding:11px;
+    margin:7px;
+    font-size: 1.5rem;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#input{
+    position :absolute;
+    top:40px;
+    right:15%;  
+    border-radius: 7px;  
+}
+#trolley{
+    position :absolute;
+    top:40px;
+    right:10%;  
+    border-radius: 7px;  
+}
+#contact{
+    position :absolute;
+    top:40px;
+    right:7%;  
+    border-radius: 7px;  
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 7px 7px;
+    margin : 7px 7px;
+}
+li{
+    padding: 7px 7px;
+    margin : 7px 7px;
+    font-size: 1.5rem;
+    color: white;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin :23px;
+    padding: 11px;
+    height: 252px;
+    
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+#img2{
+    margin-top: 200px;
+    height:300px;
+    width: 250px;
+}
+#img1{
+    height: 300px;
+    width:250px;
+    margin-right: 11px;
+    margin-left: 14px;
+}
+p{
+    padding: 7px;
+}
+#about::before{
+    content: " ";
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height :4300px;
+    width: 100vw;
+    opacity: 0.8;
+    z-index: -3;
+
+
+}
+#sleep{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height:453px; */
+    margin-top: 113px;
+    margin-left: 0px;
+}
+
+#sleep > div{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.secondary{
+    text-align: center;
+}
+
+
+.container{
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* width: 50%; */
+    /* display: none; */
+}
+
+.con2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+
+}
+
+.con2>div {
+    height: 250px;
+}
+
+/* div img{
+    width:50vw;
+    height:250px;
+    z-index: -1;
+}
+div span img{
+    height:500px;
+    z-index: -1;
+} */
+
+#matress{
+    background-image: url('matress.jpg');
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    height:500px;
+    width:50%;
+}
+
+#matress > div, #pillow > div, #sheet > div {
+    /* position: relative;
+    top: 1rem; */
+    /* left: 45rem; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
+}
+
+#matress > div > div, #pillow > div > div, #sheet > div > div {
+    /* display: inline; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    
+}
+
+.btf{
+    background-color: green;
+    /* position: relative; */
+    /* left:67%;
+    top:20px; */
+    font-size: 13px;
+    padding: 5px;
+    width: 5rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.btd{
+    /* position: relative;
+    left:67%;*/
+    font-size: 11px;
+    padding: 5px;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: 1rem 0;
+}
+
+.tertiary{
+    /* position:relative; */
+    /* left:63%; */
+    /* margin-top: 25px; */
+}
+
+#pillow{
+    background-image: url('pillow.png');
+    /* position:relative; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* left: 100%; */
+    background-size: cover;
+ width:100%; 
+ /* height:; */
+}
+
+#sheet{
+    background-image: url('sheet.png');
+    /* position:relative; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* left: 100%; */
+    /* top:250px; */
+ /* width:663px; */
+/* height:250px;} */
+}
+
+.bestsellers{
+    margin-top:125px ;
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.item{
+    margin:23px;
+    height:550px;
+    width:29%;
+    /* border: 2px solid rgb(144, 206, 144); */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: white;
+}
+p button{
+    display:block;
+    margin:auto;
+    padding: 5px;
+    font-size: 17px;
+    
+    
+}
+.btn{
+    text-align: center;
+    background-color: red;
+    border: none;
+    padding:8px;
+}
+div p img{
+    width:27vw;
+    height:250px;
+    z-index: -1;}
+
+.reviews{
+    /* display:flex;
+    flex-direction: column; */
+}
+.rev{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 17px;
+    margin-right: 1rem;
+    width: 60%;
+}
+#person{display: flex;
+    flex-direction: row;
+
+}
+span p img{
+    height:80px;
+    width:30%;
+    /* width:%; */
+    margin-right: 11px;
+}
+#re{
+    display:flex;
+}
+
+#re > div {
+    width: 40%;
+} 
+.bt{
+    display: block;
+    color: white;
+    background-color: rgb(4, 4, 88);
+    border-radius: 5px;
+    width: 25%;
+    
+}
+s{
+    color:red;
+}
+.rev::before{
+    content: " ";
+    background-image: url('bluebcg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height :400px;
+    width: 60%;
+    opacity: 0.8;
+    z-index: -2;
+}
+.connections{
+     display:flex;
+     flex-wrap: wrap;
+     margin-top: 50px;
+     margin-left: 0px;
+}
+.connections::before{
+    content: " ";
+    background-image: url('connections.png.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height :530px;
+    width: 100vw;
+    opacity: 0.8;
+    z-index: -2;
+
+
+}
+.part
+{
+    width:20%;
+
+}
+img{
+    height:20px;
+    width:20px;
+    margin:5px;
+}
+#footer{
+    display: flex;
+}
+#last{
+text-align: center ;
+}
+
+
+
+#memory{background-image: url('about1.png');
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 10%;;
+    width:350px;
+    /* top:250px; */
+
+height:272px;
+/* margin-left: 80px; */
+
+}.btg{
+    background-color: green;
+    padding:4px;
+    margin:5px;
+}

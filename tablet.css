@@ -1,0 +1,249 @@
+#about{
+    margin-top: 120px;
+}
+#logo>img{
+    height: 23px;
+    width: 22px;
+    margin: 3px;
+}
+.navbar{
+    display: flex;
+    margin-top: 0px;
+    padding :3px;
+    
+    
+
+}
+#img2{margin-top:0px;
+    height:300px;
+    width: 80%;
+}
+
+#img2{
+    margin-top: 0px;
+    height:300px;
+    width: 80%;
+}
+
+#img1{
+    height: 300px;
+    width:80%;
+    margin-bottom: 0px;
+}#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin :23px;
+    padding: 11px;
+    height: 1100px;
+    
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+select{
+    color:black;
+    background: none;
+    text-decoration: none;
+    border:none;
+    font-size:0.5rem;
+}
+#home{
+    height:230px;
+}
+li{
+    padding: 0px;
+    margin : 0px;
+    font-size: 0.6rem;
+    color: black;
+    margin-left: 3px;
+}
+#input{
+    position :absolute;
+    top:25px;
+    width:12vw;
+    right:10%;  
+    border-radius: 16px;  
+}
+#trolley{
+    position :absolute;
+    top:25px;
+    right:5%;  
+    border-radius: 7px;  
+}
+#contact{
+    position :absolute;
+    top:25px;
+    right:0%;  
+    border-radius: 7px;  
+}
+
+.mn{
+    font-size: 16px;
+}
+h1{
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+
+   .products {
+      display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.item{
+    margin:23px;
+    height:600px;
+    width:90%;
+    /* border: 2px solid rgb(144, 206, 144); */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: white;
+}
+div p img{
+    width:80vw;
+    height:250px;
+    z-index: -1;}
+    #re{
+        flex-direction: column;
+    }
+    .rev::before{
+        content: " ";
+        background-image: url('bluebcg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height :350px;
+        width: 100%;
+        opacity: 0.8;
+        z-index: -2;
+    }
+    #re > div {
+        width: 90%;
+    } 
+    .rev{
+        display:flex;
+        flex-direction: column;
+        font-size: 15px;
+        margin-bottom: 1rem;
+        width: 85%;
+    }
+    #memory{background-image: url('about1.png');
+        position:relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* left: 10%;; */
+        width:80%;
+        /* top:250px; */
+    margin-top: 100px;
+    height:272px;
+    /* margin-left: 80px; */
+    
+    }
+    span p img{
+        width:30%;
+        height: 25px;
+    }
+    .connections::before{
+        content: " ";
+        background-image: url('connections.png.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height :650px;
+        width: 100vw;
+        opacity: 0.8;
+        z-index: -2;
+    
+    
+    }
+    .part
+    {
+        width:20%;
+    
+    }
+    img{
+        height:15px;
+        width:15px;
+        margin:5px;
+    }
+    #footer{
+        display: flex;
+    }
+    #last{
+    text-align: center ;
+    }
+    .connections{
+        display:flex;
+        margin-top: 50px;
+        margin-left: 0px;
+        font-size: 13px;
+   }
+    h2{font-size: 17px;}
+    /* #about::before{
+        content: " ";
+        background-image: url('back.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height :8400px;
+        width: 100vw;
+        opacity: 0.8;
+        z-index: -3;
+    
+    
+    } */
+    #matress{
+        background-image: url('matress.jpg');
+        /* position: absolute; */
+        background-position: center;
+        background-size: cover;
+        height:400px;
+        width:50%;
+    }
+    .con2>div {
+        height: 200px;
+    }
+    .primary{
+        font-size: 25px;
+    }
+    /* #home::before{
+        content: " ";
+        background-image: url('back.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height :9600px;
+        width: 100vw;
+        opacity: 0.8;
+        z-index: -2;
+    
+    
+    } */
+    #sleep{
+        margin-top: 15px;
+    }
+    .secondary{
+        margin-bottom: 7px;
+    }
+    #navbar{
+        font-size:0.5rem;
+        color:black;
+    }
+    #logo{
+        color: black;
+        font-size: 0.5rem;
+    }
+    
+    
+    
+    
